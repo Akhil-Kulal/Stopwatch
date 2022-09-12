@@ -1,0 +1,49 @@
+/* Style for entire body */
+body {
+  background: darkblue;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+/* Style for stopwatch container */
+.container {
+  width: 800px;
+  margin: 250px auto;
+  color: white;
+  text-align: center;
+}
+
+/* Style for h1 tag */
+h1 {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-weight: 2.6rem;
+  text-transform: capitalize;
+}
+
+/* Style for timer and colon in between of timer */
+#seconds,
+#tens,
+#colon {
+  font-size: 2em;
+}
+
+/* Style for start , stop and reset buttons */
+button {
+  width: 150px;
+  height: 50px;
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+}
+
+/* Style for start , stop and reset buttons while we hover over the bottons*/
+button:hover {
+  background: white;
+  color: darkblue;
+  font-weight: 800;
+  text-transform: capitalize;
+}
